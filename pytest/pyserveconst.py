@@ -1,0 +1,18 @@
+
+
+import sys
+
+PY_CONNECT_ADDR = "127.0.0.1"
+PY_CONNECT_PORT = 31770
+
+PY_CONNECT_FUNCTION_ID = "f"
+PY_CONNECT_ARGS_ID = "a"
+PY_CONNECT_RETURN = "r"
+PY_CONNECT_ERROR = "e"
+if sys.version[1] == "3":
+    PY_CONNECT_FUNCTION_ID = b"f"
+    PY_CONNECT_ARGS_ID = b"a"
+    PY_CONNECT_RETURN = b"r"
+    PY_CONNECT_ERROR = b"e"
+
+
